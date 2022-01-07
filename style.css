@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13%;
+}
+
+h1{
+    padding-left: 4.5rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+}
+header a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-right: 1.5rem;
+    color: black;
+}
+
+mark{
+    background-color: pink;
+}
+
+@media only screen and (max-width: 360px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    header{
+        padding: 0;
+        width: 100vw;
+    }
+    header a{
+        display: none;
+    }
+    #cases{
+        height: 25vh;
+    }
+    #deaths{
+        height: 25vh;
+    }
+    #population{
+        height: 25vh;
+    }
+    #vaccinations{
+        height: 25vh;
+    }
+    #partially{
+        height: 25vh;
+    }
+    #vaccine{
+        background: paleturquoise;
+        
+    }
+    #totalCases{
+        background-color: rgb(160, 221, 201);
+    }
+    
+  }
