@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 13%;
+    padding-top: 5%;
 }
 
 h1{
@@ -30,7 +30,10 @@ header a{
     padding-right: 1.5rem;
     color: black;
 }
-
+#statewise{
+    padding: 2%;
+    background: #333;
+}
 mark{
     background-color: pink;
 }
