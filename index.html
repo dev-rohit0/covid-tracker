@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Covid19 in India</title>
+    <title>Document</title>
 </head>
 <body>
 
@@ -13,16 +13,27 @@
         <h1>COVID-19 INDIA</h1>
         <a href="#">About</a>
     </header>
+    <div class="container covid" id="statewise">
+        <input type="text" id="stateName" placeholder="Enter State Name">
+        <button id="btn">Search</button>
+    </div>
+    <div class="container covid" id="totalCases">
+        <h1><mark><span id = "Statecases"></span></mark></h1>
+        
+    </div>
     <div class="container covid" id="totalCases">
         <h1>Total Cases: <mark><span id = "cases">0</span></mark></h1>
         <h1>Total Deaths: <mark><span id = "deaths">0</span></mark></h1>
-        <h1>Population: <mark><span id = "population">0</span></mark></h1>
+        <h1 id="pop">Population: <mark><span id = "population">0</span></mark></h1>
     </div>
     <div class="container covid" id="vaccine">
         <h1>Vaccinations: <mark><span id = "vaccinations">0</span></mark></h1>
         <h1>Partially Vaccinated: <mark><span id = "partially">0</span></mark></h1>
     </div>
+    <div class="container covid" id="update">
 
+        <h4 id="lastUpdated">Last Updated:</h4>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
